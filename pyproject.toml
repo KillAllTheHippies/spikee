@@ -51,5 +51,5 @@ spikee = "spikee.cli:main"
 "spikee" = ["data/**/*"]
 
 [tool.setuptools.packages.find]
-include = ["spikee*"]
+include = ["spikee*", "spikee_gui*"]
 exclude = ["datasets*", "results*", "targets*", "plugins*"]

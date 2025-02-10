@@ -1,0 +1,1 @@
+python -m spikee_gui.main

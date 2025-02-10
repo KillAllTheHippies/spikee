@@ -1,0 +1,58 @@
+{
+  "default": {
+    "name": "default",
+    "description": "Default profile with sensible settings for general use.",
+    "settings": {
+      "list": {
+        "default_list_type": "Targets"
+      },
+      "generate": {
+        "default_target": null,
+        "default_plugin": null,
+        "parameters": {}
+      },
+      "test": {
+        "default_options": {}
+      }
+    }
+  },
+  "quick_test": {
+    "name": "quick_test",
+    "description": "Settings for running a quick test.",
+    "settings": {
+      "list": {
+        "default_list_type": "Targets"
+      },
+      "generate": {
+        "default_target": null,
+        "default_plugin": null,
+        "parameters": {}
+      },
+      "test": {
+        "default_options": {
+          "fast_mode": true
+        }
+      }
+    }
+  },
+  "full_analysis": {
+    "name": "full_analysis",
+    "description": "Settings for a comprehensive analysis.",
+    "settings": {
+      "list": {
+        "default_list_type": "Targets"
+      },
+      "generate": {
+        "default_target": null,
+        "default_plugin": null,
+        "parameters": {}
+      },
+      "test": {
+        "default_options": {
+          "all_tests": true,
+          "detailed_report": true
+        }
+      }
+    }
+  }
+}
